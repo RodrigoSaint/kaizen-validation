@@ -1,8 +1,8 @@
 {
   "name": "kaizen-validation",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "description": "A simple validation",
-  "main": "./build",
+  "main": "./source/index.js",
   "scripts": {
     "test": "mocha-webpack source/**/*.spec.js",
     "test:watch": "mocha-webpack source/**/*.spec.js --watch",
