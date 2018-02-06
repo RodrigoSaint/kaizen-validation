@@ -8,6 +8,10 @@
     "test:watch": "mocha-webpack source/**/*.spec.js --watch",
     "build": "webpack --config webpack.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RodrigoSaint/kaizen-validation"
+  },
   "keywords": [
     "Unit",
     "test",

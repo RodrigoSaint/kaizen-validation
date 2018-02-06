@@ -7,10 +7,10 @@ To create a validation using it you only need to import it and invoke the valida
 For example:
 
 ```javascript
-    const validationDefinition = {name: [ name => name == undefined? "The name is required": undefined ]};
-    const modelToValidate = {name: undefined};
-    const result = validate(validationDefinition, modelToValidate);
-    //the result will return a object with the attribute name containing a array with "The name is required" message
+const validationDefinition = {name: [ name => name == undefined? "The name is required": undefined ]};
+const modelToValidate = {name: undefined};
+const result = validate(validationDefinition, modelToValidate);
+//the result will return a object with the attribute name containing a array with "The name is required" message
 ```
 
 If you want to create a validation that can depends on another argument you may do it by [currying](https://en.wikipedia.org/wiki/Currying).
@@ -18,7 +18,7 @@ If you want to create a validation that can depends on another argument you may 
 For example:
 
 ```javascript
-    export const maxLength = length => 
+export const maxLength = length => 
     (property => property !== undefined && property.length > length? lengthError : undefined);
 ```
 
