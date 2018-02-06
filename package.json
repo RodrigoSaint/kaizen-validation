@@ -1,26 +1,38 @@
 {
   "name": "kaizen-validation",
-  "version": "1.0.4",
-  "description": "A simple validation",
+  "version": "1.0.5",
+  "description": "A simple and flexible javascript validation that allows you to test both on backend and frontend.",
   "main": "./source/index.js",
   "scripts": {
     "test": "mocha-webpack source/**/*.spec.js",
     "test:watch": "mocha-webpack source/**/*.spec.js --watch",
     "build": "webpack --config webpack.config.js"
   },
+  "maintainers": [
+    "Rodrigo Santos da Silva <rodrigo.saint01@live.com>"
+  ],
+  "readme": "./README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/RodrigoSaint/kaizen-validation"
   },
+  "bugs": {
+    "url": "https://github.com/RodrigoSaint/kaizen-validation/issues"
+  },
+  "homepage": "https://rodrigosaint.github.io/kaizen-validation/",
   "keywords": [
     "Unit",
-    "test",
     "Test",
     "Extensible",
-    "Simple"
+    "Simple",
+    "Frontend",
+    "Backend",
+    "Javascript",
+    "Isomorphic",
+    "no-dependencies"
   ],
   "author": "Rodrigo Santos da Silva <rodrigo.saint01@live.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^5.0.0",
     "mocha-loader": "^1.1.3",
