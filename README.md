@@ -1,4 +1,4 @@
-# Kaizen validation
+# Kaizen validation ![Build passing](https://travis-ci.org/RodrigoSaint/kaizen-validation.svg?branch=master)
 
 Kaizen validation is a javascript package designed to be simple and flexible. It relies on simple javascript functions so you can use it on frontend or backend and with any kind of framework.
 
