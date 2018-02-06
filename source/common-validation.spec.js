@@ -7,7 +7,7 @@ describe('Common validations', () =>
 {
     it("validate required", () => {
         equal(validation.isRequired("name"), undefined)
-        equal(validation.isRequired(undefined), constraint.requiredError)
+        equal(validation.isRequired(""), constraint.requiredError)
     })
 
     it('validate min length', () => {

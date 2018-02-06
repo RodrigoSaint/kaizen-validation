@@ -1,6 +1,6 @@
 {
   "name": "kaizen-validation",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple and flexible javascript validation that allows you to test both on backend and frontend.",
   "main": "./source/index.js",
   "scripts": {

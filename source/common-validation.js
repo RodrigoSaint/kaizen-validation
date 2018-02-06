@@ -1,6 +1,6 @@
 import { requiredError, lengthError, invalidOptionError, biggerThanError, smallerThanError } from "./constraint";
 
-export const isRequired = property => property == undefined? requiredError : undefined; 
+export const isRequired = property => !property? requiredError : undefined; 
 
 export const minLength = length => 
     (property => property !== undefined && property.length < length? lengthError : undefined);
