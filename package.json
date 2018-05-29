@@ -1,6 +1,6 @@
 {
   "name": "kaizen-validation",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A simple and flexible javascript validation that allows you to test both on backend and frontend.",
   "main": "./build/index.js",
   "scripts": {
@@ -46,7 +46,5 @@
   "files": [
     "build"
   ],
-  "dependencies": {
-    "kaizen-validation": "^1.0.7"
-  }
+  "dependencies": {}
 }
